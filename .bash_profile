@@ -19,6 +19,10 @@ alias dosaui='ssh -X adityaas@dosa'
 alias pohaui='ssh -X adityaas@poha'
 alias paniui='ssh -X adityaas@pani'
 
+alias efsnv='sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-c6f61227.efs.us-east-1.amazonaws.com:/ /efsnv'
+alias efssing='sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 172.31.9.10	:/ /efssing
+
+
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
