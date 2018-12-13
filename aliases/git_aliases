@@ -1,0 +1,12 @@
+#GIT aliases
+alias gs='git status'
+alias gb='git branch'
+alias gc='git checkout '
+alias gcb='git checkout -b'
+alias gpush='git push origin '
+alias gpull='git pull origin '
+alias gpushu='git push upstream '
+alias gpullu='git pull upstream '
+alias gd='git diff '
+alias greset='git reset HEAD '
+alias gcf='git checkout -- '
