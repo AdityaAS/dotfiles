@@ -10,19 +10,5 @@
 www.facebook.com localhost
 https://www.facebook.com/ localhost
 
-
-35.171.36.219 nv_gpu
-18.235.164.39 nv_cpu
-18.215.58.5 nv_gpu2
-
-13.233.42.219 mumbai_optimized_cpu
-13.232.189.161 mumbai_gpu
-13.127.194.104 mumbai_cpu
-
-10.24.28.102 idli
-10.24.28.103 momo
-10.24.28.104 dosa
-10.24.28.105 poha
-10.24.28.106 puri
-10.24.28.107 peda
-10.24.28.108 pani
+# List of servers
+# <ip_of_server> <name_of_server>
