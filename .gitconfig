@@ -1,0 +1,8 @@
+[core]
+        editor = vim
+        pager = less -+FX
+[user]
+        name = Aditya Sarma
+        email = asaditya1195@gmail.com
+[push]
+        default = simple
