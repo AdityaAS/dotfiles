@@ -63,3 +63,11 @@ alias drm='docker rm -f '
 alias drmi='docker rmi '
 alias drun='nvidia-docker run -it --user=$(id -u):$(id -g) -v /etc/passwd:/etc/passwd:ro -v /etc/group:/etc/group:ro -p 9010-9020:9010-9020 --net=host -v /scratch:/scratch -v /scratchd:/scratchd -v /scratche:/scratche '
 
+
+# Google drive cli downloads
+function gdrive_download () {
+  CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=$1" -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')
+  wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$CONFIRM&id=$1" -O $2
+  rm -rf /tmp/cookies.txt
+}
+# Usage gdrive_download <id_of_file> (not URL)
