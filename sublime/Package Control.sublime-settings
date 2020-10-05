@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"AutoDocstring",
+		"BracketHighlighter",
+		"DocBlockr_Python",
+		"GitGutter",
+		"Helium",
+		"MarkdownPreview",
+		"Materialize",
+		"Package Control",
+		"SFTP",
+		"SideBarEnhancements",
+		"SideBarMenuAdvanced",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"Sublimerge 3",
+		"SyncedSideBar"
+	]
+}

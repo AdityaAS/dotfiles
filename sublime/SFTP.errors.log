@@ -1,0 +1,46 @@
+2020-04-10 04:47:18
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 394, in handle_put_dirs
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/sftp_transport.py", line 366, in cd
+SFTP.sftp.errors.NotFoundError: Folder not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 16, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 119, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 355, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 510, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 47, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/sftp_transport.py", line 662, in put
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 397, in handle_put_dirs
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/sftp_transport.py", line 366, in cd
+SFTP.sftp.errors.NotFoundError: Folder not found
+2020-04-10 04:47:25
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 394, in handle_put_dirs
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/sftp_transport.py", line 366, in cd
+SFTP.sftp.errors.NotFoundError: Folder not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 16, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 119, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 355, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 510, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 47, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/sftp_transport.py", line 662, in put
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/file_transfer.py", line 397, in handle_put_dirs
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/sftp_transport.py", line 366, in cd
+SFTP.sftp.errors.NotFoundError: Folder not found
+2020-06-19 04:48:29
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 16, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1550, in run
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/adityasharma/WadhwaniAI/projects/utilities/utilities/nn/optim.py'
+2020-07-11 16:55:37
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/threads.py", line 16, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/commands.py", line 1550, in run
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/adityasharma/WadhwaniAI/projects/dl-skeleton/utilities/io.py'
