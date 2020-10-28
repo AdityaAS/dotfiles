@@ -63,6 +63,17 @@ alias drm='docker rm -f '
 alias drmi='docker rmi '
 alias drun='nvidia-docker run -it --user=$(id -u):$(id -g) -v /etc/passwd:/etc/passwd:ro -v /etc/group:/etc/group:ro -p 9010-9020:9010-9020 --net=host -v /scratch:/scratch -v /scratchd:/scratchd -v /scratche:/scratche '
 
+alias kgd='kubectl get deployments'
+alias kgp='kubectl get pods'
+alias kgn='kubectl get nodes'
+alias kgnlabels='kubectl get nodes --show-labels'
+alias kln='kubectl label nodes'
+alias kdesp='kubectl describe pods'
+alias klp='kubectl logs'
+alias kc='kubectl create -f'
+alias kdelp='kubectl delete pods'
+alias kdpforce='kubectl delete pods --grace-period=0 --force'
+alias kdd='kubectl delete deployment'
 
 # Google drive cli downloads
 function gdrive_download () {
