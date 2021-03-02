@@ -1,0 +1,95 @@
+# do not delete / or prompt if deleting more than 3 files at a time #
+alias r='reset'
+# confirmation #
+alias mv='mv -i'
+alias ln='ln -i'
+alias cp='rsync -ah --progress'
+alias rsync='rsync -ah --progress'
+
+# Add some easy shortcuts for formatted directory listings and add a touch of color.
+alias ll='ls -lF --color=auto'
+alias la='ls -alF --color=autpo'
+alias ls='ls -F --color=auto'
+alias l.='ls -d .* --color=auto'
+
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias .2='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+# Make grep more user friendly by highlighting matches
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+alias mkdir='mkdir -pv'
+alias diff='colordiff'
+
+# handy short cuts #
+alias h='history'
+alias j='jobs -l'
+alias wget='wget -c'
+
+alias jlab='jupyter lab --no-browser --ip 0.0.0.0 --port '
+alias jnote='jupyter notebook --no-browser --ip 0.0.0.0 --port '
+
+#GIT aliases
+alias gs='git status'
+alias gst='git stash'
+alias ga='git add '
+alias gf='git fetch'
+alias gbd='git branch -d'
+alias gb='git branch'
+alias gc='git commit '
+alias gd='git diff '
+alias gch='git checkout '
+alias gcb='git checkout -b'
+alias gpush='git push origin '
+alias gpull='git pull origin '
+alias greset='git reset HEAD '
+alias gcf='git checkout -- '
+alias gittree='git log --graph --decorate --pretty=oneline --abbrev-commit'
+
+
+alias vpytorch1.3='source /home/users/aditya/virtual_environments/vpytorch1.3/bin/activate'
+alias vpython2.7='source /home/users/aditya/virtual_environments/vpython2.7/bin/activate'
+alias valign_py27='source /home/users/aditya/virtual_environments/valign_py27/bin/activate'
+
+alias vchmr='conda activate vchmr'
+alias vswa='conda activate vswa'
+
+# Virtualenvwrapper aliases
+alias vnew='mkvirtualenv '
+
+
+# tmux aliases
+alias tnew='tmux new -s '
+alias ta='tmux -u a -t '
+alias tk='tmux kill-session -t '
+alias tls='tmux ls'
+
+# Docker aliases
+alias di='docker images '
+alias dc='docker containers ls '
+alias dcall='docker container ls -a '
+alias da='docker attach '
+alias dps='docker ps '
+alias dpsall='docker ps -a '
+alias drm='docker rm -f '
+alias drmi='docker rmi '
+alias ds='docker stop '
+alias drun='nvidia-docker run -it --user=$(id -u):$(id -g) -v /etc/passwd:/etc/passwd:ro -v /etc/group:/etc/group:ro -p 9010-9020:9010-9020 --net=host -v /scratch:/scratch -v /scratchd:/scratchd -v /scratche:/scratche '
+
+#temporary aliases for Mayank
+alias vncstart='sudo systemctl start vncserver@1'
+alias kill_zombie='ps -aux | grep "python" | grep "loky" | grep aditya | awk "{print $2}" | xargs kill'
+
+function gdrive_download () {
+  CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=$1" -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')
+  wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$CONFIRM&id=$1" -O $2
+  rm -rf /tmp/cookies.txt
+}
+#temporary aliases for apoorve
+export knocker='knockknock slack --webhook-url https://hooks.slack.com/services/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 --channel hakku'
