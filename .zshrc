@@ -16,7 +16,7 @@ ZSH_THEME="random"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh_reload tmux mosh git-auto-fetch cp kubectl pyenv pylint themes colorize python)
+plugins=(git copydir zsh-autosuggestions copyfile copybuffer dirhistory osx zsh_reload tmux mosh git-auto-fetch cp kubectl pyenv pylint themes colorize python aws sublime spotify vscode docker)
 
 source $ZSH/oh-my-zsh.sh
 
