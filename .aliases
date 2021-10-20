@@ -1,16 +1,19 @@
+## login aliases
+alias simontam='ssh -X sannavajjala6@simontam.cc.gatech.edu'
+alias rivertam='ssh -X sannavajjala6@rivertam.cc.gatech.edu'
+alias inara='ssh -X sannavajjala6@inara.cc.gatech.edu'
+alias mal='ssh -X sannavajjala6@mal.cc.gatech.edu'
+
 # do not delete / or prompt if deleting more than 3 files at a time #
 alias r='reset'
 # confirmation #
 alias mv='mv -i'
 alias ln='ln -i'
-alias cp='rsync -ah --progress'
-alias rsync='rsync -ah --progress'
 
-# Add some easy shortcuts for formatted directory listings and add a touch of color.
-alias ll='ls -lF --color=auto'
-alias la='ls -alF --color=autpo'
-alias ls='ls -F --color=auto'
-alias l.='ls -d .* --color=auto'
+# Override cp so that all copies happen via rsync #
+alias cp='rsync -ah --progress'
+
+alias rsync='rsync -ah --progress'
 
 ## a quick way to get out of current directory ##
 alias ..='cd ..'
@@ -52,23 +55,20 @@ alias greset='git reset HEAD '
 alias gcf='git checkout -- '
 alias gittree='git log --graph --decorate --pretty=oneline --abbrev-commit'
 
-
-alias vpytorch1.3='source /home/users/aditya/virtual_environments/vpytorch1.3/bin/activate'
-alias vpython2.7='source /home/users/aditya/virtual_environments/vpython2.7/bin/activate'
-alias valign_py27='source /home/users/aditya/virtual_environments/valign_py27/bin/activate'
-
-alias vchmr='conda activate vchmr'
-alias vswa='conda activate vswa'
+# Conda aliases
+alias cls='conda env list'
+alias cld='conda env remove --yes'
+alias ca='conda activate '
+alias cde='conda deactivate'
 
 # Virtualenvwrapper aliases
 alias vnew='mkvirtualenv '
-
 
 # tmux aliases
 alias tnew='tmux new -s '
 alias ta='tmux -u a -t '
 alias tk='tmux kill-session -t '
-alias tls='tmux ls'
+alias tls='tmux list-sessions'
 
 # Docker aliases
 alias di='docker images '
@@ -80,7 +80,6 @@ alias dpsall='docker ps -a '
 alias drm='docker rm -f '
 alias drmi='docker rmi '
 alias ds='docker stop '
-alias drun='nvidia-docker run -it --user=$(id -u):$(id -g) -v /etc/passwd:/etc/passwd:ro -v /etc/group:/etc/group:ro -p 9010-9020:9010-9020 --net=host -v /scratch:/scratch -v /scratchd:/scratchd -v /scratche:/scratche '
 
 #temporary aliases for Mayank
 alias vncstart='sudo systemctl start vncserver@1'
@@ -91,5 +90,4 @@ function gdrive_download () {
   wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$CONFIRM&id=$1" -O $2
   rm -rf /tmp/cookies.txt
 }
-#temporary aliases for apoorve
-export knocker='knockknock slack --webhook-url https://hooks.slack.com/services/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 --channel hakku'
+
