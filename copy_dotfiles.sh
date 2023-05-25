@@ -8,7 +8,7 @@ cp ./tmux/.tmux_autocomplete $HOME/.tmux_autocomplete
 cp ./git/.git-completion $HOME/.git-completion
 cp ./git/.gitconfig $HOME/.gitconfig
 
-cp ./wgetrc $HOME/.wgetrc
+cp .wgetrc $HOME/.wgetrc
 
 cp ./ssh/config $HOME/.ssh/config
 
