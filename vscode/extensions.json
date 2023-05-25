@@ -1,0 +1,278 @@
+[
+    {
+        "id": "alefragnani.Bookmarks",
+        "name": "Bookmarks",
+        "publisher": "alefragnani",
+        "version": "13.3.1"
+    },
+    {
+        "id": "bierner.markdown-emoji",
+        "name": "markdown-emoji",
+        "publisher": "bierner",
+        "version": "0.3.0"
+    },
+    {
+        "id": "DavidAnson.vscode-markdownlint",
+        "name": "vscode-markdownlint",
+        "publisher": "DavidAnson",
+        "version": "0.50.0"
+    },
+    {
+        "id": "donjayamanne.githistory",
+        "name": "githistory",
+        "publisher": "donjayamanne",
+        "version": "0.6.20"
+    },
+    {
+        "id": "eamodio.gitlens",
+        "name": "gitlens",
+        "publisher": "eamodio",
+        "version": "13.6.0"
+    },
+    {
+        "id": "Equinusocio.vsc-community-material-theme",
+        "name": "vsc-community-material-theme",
+        "publisher": "Equinusocio",
+        "version": "1.4.6"
+    },
+    {
+        "id": "Equinusocio.vsc-material-theme",
+        "name": "vsc-material-theme",
+        "publisher": "Equinusocio",
+        "version": "33.8.0"
+    },
+    {
+        "id": "equinusocio.vsc-material-theme-icons",
+        "name": "vsc-material-theme-icons",
+        "publisher": "equinusocio",
+        "version": "2.7.5"
+    },
+    {
+        "id": "GitHub.vscode-pull-request-github",
+        "name": "vscode-pull-request-github",
+        "publisher": "GitHub",
+        "version": "0.64.0"
+    },
+    {
+        "id": "ipedrazas.kubernetes-snippets",
+        "name": "kubernetes-snippets",
+        "publisher": "ipedrazas",
+        "version": "0.1.9"
+    },
+    {
+        "id": "James-Yu.latex-workshop",
+        "name": "latex-workshop",
+        "publisher": "James-Yu",
+        "version": "9.11.2"
+    },
+    {
+        "id": "jeff-hykin.better-cpp-syntax",
+        "name": "better-cpp-syntax",
+        "publisher": "jeff-hykin",
+        "version": "1.17.2"
+    },
+    {
+        "id": "LeetCode.vscode-leetcode",
+        "name": "vscode-leetcode",
+        "publisher": "LeetCode",
+        "version": "0.18.1"
+    },
+    {
+        "id": "mohsen1.prettify-json",
+        "name": "prettify-json",
+        "publisher": "mohsen1",
+        "version": "0.0.3"
+    },
+    {
+        "id": "monokai.theme-monokai-pro-vscode",
+        "name": "theme-monokai-pro-vscode",
+        "publisher": "monokai",
+        "version": "1.2.1"
+    },
+    {
+        "id": "ms-azuretools.vscode-docker",
+        "name": "vscode-docker",
+        "publisher": "ms-azuretools",
+        "version": "1.25.1"
+    },
+    {
+        "id": "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "name": "vscode-kubernetes-tools",
+        "publisher": "ms-kubernetes-tools",
+        "version": "1.3.11"
+    },
+    {
+        "id": "ms-python.isort",
+        "name": "isort",
+        "publisher": "ms-python",
+        "version": "2022.8.0"
+    },
+    {
+        "id": "ms-python.python",
+        "name": "python",
+        "publisher": "ms-python",
+        "version": "2023.8.0"
+    },
+    {
+        "id": "ms-python.vscode-pylance",
+        "name": "vscode-pylance",
+        "publisher": "ms-python",
+        "version": "2023.5.40"
+    },
+    {
+        "id": "ms-toolsai.jupyter",
+        "name": "jupyter",
+        "publisher": "ms-toolsai",
+        "version": "2023.4.1011241018"
+    },
+    {
+        "id": "ms-toolsai.jupyter-keymap",
+        "name": "jupyter-keymap",
+        "publisher": "ms-toolsai",
+        "version": "1.1.0"
+    },
+    {
+        "id": "ms-toolsai.jupyter-renderers",
+        "name": "jupyter-renderers",
+        "publisher": "ms-toolsai",
+        "version": "1.0.15"
+    },
+    {
+        "id": "ms-toolsai.vscode-jupyter-cell-tags",
+        "name": "vscode-jupyter-cell-tags",
+        "publisher": "ms-toolsai",
+        "version": "0.1.8"
+    },
+    {
+        "id": "ms-toolsai.vscode-jupyter-slideshow",
+        "name": "vscode-jupyter-slideshow",
+        "publisher": "ms-toolsai",
+        "version": "0.1.5"
+    },
+    {
+        "id": "ms-vscode-remote.remote-ssh",
+        "name": "remote-ssh",
+        "publisher": "ms-vscode-remote",
+        "version": "0.102.0"
+    },
+    {
+        "id": "ms-vscode-remote.remote-ssh-edit",
+        "name": "remote-ssh-edit",
+        "publisher": "ms-vscode-remote",
+        "version": "0.86.0"
+    },
+    {
+        "id": "ms-vscode.cmake-tools",
+        "name": "cmake-tools",
+        "publisher": "ms-vscode",
+        "version": "1.14.31"
+    },
+    {
+        "id": "ms-vscode.cpptools",
+        "name": "cpptools",
+        "publisher": "ms-vscode",
+        "version": "1.15.4"
+    },
+    {
+        "id": "ms-vscode.cpptools-extension-pack",
+        "name": "cpptools-extension-pack",
+        "publisher": "ms-vscode",
+        "version": "1.3.0"
+    },
+    {
+        "id": "ms-vscode.cpptools-themes",
+        "name": "cpptools-themes",
+        "publisher": "ms-vscode",
+        "version": "2.0.0"
+    },
+    {
+        "id": "ms-vscode.remote-explorer",
+        "name": "remote-explorer",
+        "publisher": "ms-vscode",
+        "version": "0.4.0"
+    },
+    {
+        "id": "ms-vscode.sublime-keybindings",
+        "name": "sublime-keybindings",
+        "publisher": "ms-vscode",
+        "version": "4.0.10"
+    },
+    {
+        "id": "njpwerner.autodocstring",
+        "name": "autodocstring",
+        "publisher": "njpwerner",
+        "version": "0.6.1"
+    },
+    {
+        "id": "nonoroazoro.syncing",
+        "name": "syncing",
+        "publisher": "nonoroazoro",
+        "version": "3.3.4"
+    },
+    {
+        "id": "rafaelmaiolla.remote-vscode",
+        "name": "remote-vscode",
+        "publisher": "rafaelmaiolla",
+        "version": "1.1.0"
+    },
+    {
+        "id": "redhat.java",
+        "name": "java",
+        "publisher": "redhat",
+        "version": "1.18.0"
+    },
+    {
+        "id": "redhat.vscode-commons",
+        "name": "vscode-commons",
+        "publisher": "redhat",
+        "version": "0.0.6"
+    },
+    {
+        "id": "redhat.vscode-yaml",
+        "name": "vscode-yaml",
+        "publisher": "redhat",
+        "version": "1.13.0"
+    },
+    {
+        "id": "SBSnippets.pytorch-snippets",
+        "name": "pytorch-snippets",
+        "publisher": "SBSnippets",
+        "version": "1.0.2"
+    },
+    {
+        "id": "shd101wyy.markdown-preview-enhanced",
+        "name": "markdown-preview-enhanced",
+        "publisher": "shd101wyy",
+        "version": "0.6.8"
+    },
+    {
+        "id": "tht13.python",
+        "name": "python",
+        "publisher": "tht13",
+        "version": "0.2.3"
+    },
+    {
+        "id": "truman.autocomplate-shell",
+        "name": "autocomplate-shell",
+        "publisher": "truman",
+        "version": "0.1.1"
+    },
+    {
+        "id": "twxs.cmake",
+        "name": "cmake",
+        "publisher": "twxs",
+        "version": "0.0.17"
+    },
+    {
+        "id": "yzhang.markdown-all-in-one",
+        "name": "markdown-all-in-one",
+        "publisher": "yzhang",
+        "version": "3.5.1"
+    },
+    {
+        "id": "zhuangtongfa.material-theme",
+        "name": "material-theme",
+        "publisher": "zhuangtongfa",
+        "version": "3.15.14"
+    }
+]
