@@ -9,6 +9,6 @@
 ::1             localhost
 www.facebook.com localhost
 https://www.facebook.com/ localhost
+www.instagram.com localhost
+https://www.instagram.com/ localhost
 
-# List of servers
-# <ip_of_server> <name_of_server>

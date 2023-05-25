@@ -3,6 +3,7 @@
 # for examples
 
 # If not running interactively, don't do anything
+# This setting is important for multi node experiment such as horovod multi node experiments
 case $- in
     *i*) ;;
       *) return;;

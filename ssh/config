@@ -1,0 +1,62 @@
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host simontam
+    Hostname simontam.cc.gatech.edu
+    User sannavajjala6
+
+Host rivertam
+    Hostname rivertam.cc.gatech.edu
+    User sannavajjala6
+
+Host mal
+    Hostname mal.cc.gatech.edu
+    User sannavajjala6
+
+Host inara
+    Hostname inara.cc.gatech.edu
+    User sannavajjala6
+
+Host kaylee
+    Hostname kaylee.cc.gatech.edu
+    User sannavajjala6
+
+Host wash
+    Hostname wash.cc.gatech.edu
+    User sannavajjala6
+
+Host shepherd
+    Hostname shepherd.cc.gatech.edu
+    User sannavajjala6
+
+Host jayne
+    Hostname jayne.cc.gatech.edu
+    User sannavajjala6
+
+Host sysml-01
+    Hostname sysml-01.cc.gatech.edu
+    User sannavajjala6
+
+Host sysml-02
+    Hostname sysml-02.cc.gatech.edu
+    User sannavajjala6
+
+Host sysml-03
+    Hostname sysml-03.cc.gatech.edu
+    User sannavajjala6
+
+Host sysml-04
+    Hostname sysml-04.cc.gatech.edu
+    User sannavajjala6
+
+Host sysml-05
+    Hostname sysml-05.cc.gatech.edu
+    User sannavajjala6
+
+Host phoenix
+   Hostname login-phoenix.pace.gatech.edu
+   User sannavajjala6
+
+Host ice
+   Hostname login-ice.pace.gatech.edu
+   User sannavajjala6

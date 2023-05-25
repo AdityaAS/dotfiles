@@ -3,6 +3,8 @@ alias r='reset'
 # confirmation #
 alias mv='mv -i'
 alias ln='ln -i'
+
+# Override cp so that all copies happen via rsync #
 alias cp='rsync -ah --progress'
 alias rsync='rsync -ah --progress'
 
@@ -32,11 +34,10 @@ alias h='history'
 alias j='jobs -l'
 alias wget='wget -c'
 
-# Jupyter aliases
-alias jlab='jupyter lab --no-browser --port '
-alias jnote='jupyter notebook --no-browser --port '
+alias jlab='jupyter lab --no-browser --ip 0.0.0.0 --port '
+alias jnote='jupyter notebook --no-browser --ip 0.0.0.0 --port '
 
-# Git aliases
+#git aliases
 alias gs='git status'
 alias gst='git stash'
 alias ga='git add '
@@ -53,16 +54,33 @@ alias greset='git reset HEAD '
 alias gcf='git checkout -- '
 alias gittree='git log --graph --decorate --pretty=oneline --abbrev-commit'
 
+# Conda aliases
+alias cls='conda env list'
+alias cld='conda env remove --yes'
+alias ca='conda activate '
+alias cde='conda deactivate'
+
+# Virtualenvwrapper aliases
+alias vnew='mkvirtualenv '
+
+# tmux aliases
+alias tnew='tmux new -s '
+alias ta='tmux -u a -t '
+alias tk='tmux kill-session -t '
+alias tls='tmux list-sessions'
+
 # Docker aliases
 alias di='docker images '
 alias dc='docker containers ls '
 alias dcall='docker container ls -a '
+alias da='docker attach '
 alias dps='docker ps -a '
 alias ds='docker stop '
 alias drm='docker rm -f '
 alias drmi='docker rmi '
-alias drun='nvidia-docker run -it --user=$(id -u):$(id -g) -v /etc/passwd:/etc/passwd:ro -v /etc/group:/etc/group:ro -p 9010-9020:9010-9020 --net=host -v /scratch:/scratch -v /scratchd:/scratchd -v /scratche:/scratche '
+alias ds='docker stop '
 
+# Kubernetes aliases
 alias kgd='kubectl get deployments'
 alias kgp='kubectl get pods'
 alias kgn='kubectl get nodes'
@@ -81,4 +99,4 @@ function gdrive_download () {
   wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$CONFIRM&id=$1" -O $2
   rm -rf /tmp/cookies.txt
 }
-# Usage gdrive_download <id_of_file> (not URL)
+
