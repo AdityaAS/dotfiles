@@ -2,7 +2,7 @@
 
 ## Package management
 
-- Mamba: <https://github.com/conda-forge/miniforge#mambaforge> and <https://github.com/mamba-org/mamba> (Much faster conda, always use mamba)
+- Mamba: <https://github.com/conda-forge/miniforge#mambaforge> and <https://github.com/mamba-org/mamba> (Much faster than conda, always use mamba)
 
 ## CLI tools
 
