@@ -1,0 +1,78 @@
+{
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.detectIndentation": true,
+    "files.insertFinalNewline": true,
+    "editor.find.seedSearchStringFromSelection": true,
+    "editor.fontFamily": "Menlo",
+    "editor.fontSize": 12,
+    "editor.matchBrackets": "always",
+    "files.autoSave": "onFocusChange",
+    "editor.scrollBeyondLastLine": false,
+    "window.title": "${activeEditorFull}${separator}${rootName}",
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "terminal.integrated.inheritEnv": false,
+    "remote.onstartup": true,
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "remote.SSH.connectTimeout": 30,
+    "python.autoComplete.addBrackets": true,
+    "editor.tabCompletion": "on",
+    "python.autoComplete.extraPaths": [
+
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {
+        "[Material Theme Darker]": {}
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.kubectl-path.mac": "/Users/adityasharma/.vs-kubernetes/tools/kubectl/kubectl",
+        "vs-kubernetes.minikube-path.mac": "/Users/adityasharma/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.helm-path.mac": "/Users/adityasharma/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path.mac": "/Users/adityasharma/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+        "vscode-kubernetes.kubectl-path.linux": "/nethome/sannavajjala6/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.linux": "/nethome/sannavajjala6/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.helm-path.linux": "/nethome/sannavajjala6/.vs-kubernetes/tools/helm/linux-amd64/helm"
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "terminal.external.osxExec": "iTerm.app",
+    "gitlens.defaultDateFormat": null,
+    "git.autofetch": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "sync.gist": "0c1d7062549cfa42096773bb109ec8ac",
+    "leetcode.hint.configWebviewMarkdown": false,
+    "leetcode.workspaceFolder": "/Users/adityasharma/.leetcode",
+    "python.formatting.provider": "black",
+    "python.analysis.extraPaths": [],
+    "python.analysis.completeFunctionParens": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "git.ignoreLegacyWarning": true,
+    "python.formatting.blackPath": "",
+    "workbench.startupEditor": "none",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": false,
+        "markdown": false
+    },
+    "workbench.colorTheme": "Monokai",
+    "editor.guides.indentation": true,
+    "editor.minimap.size": "fill",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "githubPullRequests.pullBranch": "never",
+    "remote.SSH.defaultForwardedPorts": [
+
+    ]
+}
