@@ -22,3 +22,10 @@
 ## Plotting
 
 - plotly: <https://plotly.com/python/plotly-express/>
+
+## Linux tools
+
+- fzf: <https://github.com/junegunn/fzf> `git clone --depth 1 <https://github.com/junegunn/fzf.git> ~/.fzf; ~/.fzf/install`
+- ripgrep: <https://github.com/BurntSushi/ripgrep> (`conda install -c conda-forge ripgrep`)
+-
+-
