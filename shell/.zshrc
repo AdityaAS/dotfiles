@@ -14,7 +14,7 @@ ZSH_THEME="random"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git copydir zsh-autosuggestions copyfile copybuffer dirhistory osx zsh_reload tmux mosh git-auto-fetch cp kubectl pyenv pylint themes colorize python aws sublime spotify vscode docker)
+plugins=(git copydir zsh-autosuggestions copyfile copybuffer dirhistory osx zsh_reload tmux mosh git-auto-fetch cp kubectl pyenv pylint themes colorize python aws sublime spotify vscode docker zsh-history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -49,7 +49,7 @@ export PROJECT_HOME=$HOME/projects      # Optional
 export PROMPT='${ret_status} %m %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 
 # Enable zsh syntax highlighting for cli
-ource $HOME/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/.oh-my-zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 source $HOME/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -58,3 +58,8 @@ case "$-" in
 *i*)   echo This zsh shell is interactive ;;
 *)     echo This zsh shell is not interactive ;;
 esac
+
+# Enable fzf
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# . $HOME/.oh-my-zsh/plugins/z/z.sh
