@@ -55,10 +55,10 @@ alias gcf='git checkout -- '
 alias gittree='git log --graph --decorate --pretty=oneline --abbrev-commit'
 
 # Conda aliases
-alias cls='conda env list'
-alias cld='conda env remove --yes'
-alias ca='conda activate '
-alias cde='conda deactivate'
+alias con_list='conda env list'
+alias con_delete='conda env remove --yes'
+alias con_act='conda activate '
+alias con_deact='conda deactivate'
 
 # Virtualenvwrapper aliases
 alias vnew='mkvirtualenv '
@@ -92,6 +92,8 @@ alias kc='kubectl create -f'
 alias kdelp='kubectl delete pods'
 alias kdpforce='kubectl delete pods --grace-period=0 --force'
 alias kdd='kubectl delete deployment'
+
+alias zsh_reload='omz reload'
 
 # Google drive cli downloads
 function gdrive_download () {

@@ -2,13 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-# If not running interactively, don't do anything
-# This setting is important for multi node experiment such as horovod multi node experiments
-case $- in
-    *i*) ;;
-      *) return;;
-esac
-
 HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
@@ -83,8 +76,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
 fi
 
 if [ -f ~/.git-completion.bash ]; then
@@ -117,3 +110,9 @@ export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 # virtualenv wrapper variables
 export WORKON_HOME=$HOME/.virtualenvs   # Optional
 export PROJECT_HOME=$HOME/projects      # Optional
+
+case "$-" in
+ *i*)	echo This bash shell is interactive; zsh ;;
+ *)	echo This bash shell is not interactive ;;
+esac
+
